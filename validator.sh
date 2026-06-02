@@ -6,7 +6,7 @@ set -euo pipefail
 
 MAIN_FILE="ヤッチョGPT.md"
 GPTS_CORE_FILE="ヤッチョGPT (for GPTs).md"
-GPTS_KNOWLEDGE_FILE="ヤッチョGPT (for GPTS) - Knowledge.md"
+GPTS_KNOWLEDGE_FILE="ヤッチョGPT (for GPTs) - Knowledge.md"
 
 MAIN_LIMIT=12000
 GPTS_CORE_LIMIT=7200  # 本来は8000字制限だが、8000字最大までプロンプトを詰め込むと審査で弾かれやすくなる…？っぽいため
